@@ -1,0 +1,169 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MonaJsonToMsp/1.0.0": {
+        "dependencies": {
+          "MaterialDesignThemes": "4.7.1",
+          "Microsoft-WindowsAPICodePack-Shell": "1.1.4",
+          "NCDK": "1.6.1"
+        },
+        "runtime": {
+          "MonaJsonToMsp.dll": {}
+        }
+      },
+      "MaterialDesignColors/2.1.1": {
+        "runtime": {
+          "lib/net6.0/MaterialDesignColors.dll": {
+            "assemblyVersion": "2.1.1.0",
+            "fileVersion": "2.1.1.0"
+          }
+        }
+      },
+      "MaterialDesignThemes/4.7.1": {
+        "dependencies": {
+          "MaterialDesignColors": "2.1.1",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.39"
+        },
+        "runtime": {
+          "lib/net6.0/MaterialDesignThemes.Wpf.dll": {
+            "assemblyVersion": "4.7.1.0",
+            "fileVersion": "4.7.1.0"
+          }
+        }
+      },
+      "MathNet.Numerics.Signed/4.15.0": {
+        "runtime": {
+          "lib/netstandard2.0/MathNet.Numerics.dll": {
+            "assemblyVersion": "4.15.0.0",
+            "fileVersion": "4.15.0.0"
+          }
+        }
+      },
+      "Microsoft-WindowsAPICodePack-Core/1.1.4": {
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.WindowsAPICodePack.dll": {
+            "assemblyVersion": "1.1.4.0",
+            "fileVersion": "1.1.4.0"
+          }
+        }
+      },
+      "Microsoft-WindowsAPICodePack-Shell/1.1.4": {
+        "dependencies": {
+          "Microsoft-WindowsAPICodePack-Core": "1.1.4"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.WindowsAPICodePack.Shell.dll": {
+            "assemblyVersion": "1.1.4.0",
+            "fileVersion": "1.1.4.0"
+          }
+        }
+      },
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.39": {
+        "runtime": {
+          "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.39.4716"
+          }
+        }
+      },
+      "NCDK/1.6.1": {
+        "dependencies": {
+          "MathNet.Numerics.Signed": "4.15.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/NCDK.Math.dll": {
+            "assemblyVersion": "1.6.1.0",
+            "fileVersion": "1.6.1.0"
+          },
+          "lib/netcoreapp3.1/NCDK.dll": {
+            "assemblyVersion": "1.6.1.0",
+            "fileVersion": "1.6.1.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libinchi.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x86/native/libinchi.so": {
+            "rid": "linux-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libinchi.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.0.5.0"
+          },
+          "runtimes/win-x86/native/libinchi.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.0.5.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MonaJsonToMsp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MaterialDesignColors/2.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eHGBycBIDoe6nh0F0IJ2MEtfBe+F7AjS85WzhJlLGiGuX5AEV/jZZAmXeJ3FV9YA47ZybvmshnS6dABnbmQ1TA==",
+      "path": "materialdesigncolors/2.1.1",
+      "hashPath": "materialdesigncolors.2.1.1.nupkg.sha512"
+    },
+    "MaterialDesignThemes/4.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-peRUXx9f0LYJm5EDpDEufEW7+nk0uGUpcNRx/sK84gW/yMopTzt4rWyi13o5+9R8Xm7H8JWQGubWE0WxZVBe8Q==",
+      "path": "materialdesignthemes/4.7.1",
+      "hashPath": "materialdesignthemes.4.7.1.nupkg.sha512"
+    },
+    "MathNet.Numerics.Signed/4.15.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LFjukMRatkg9dgRM7U/gM4uKgaWAX7E0lt3fsVDTPdtBIVuh7uPlksDie290br1/tv1a4Ar/Bz9ywCPSL8PhHg==",
+      "path": "mathnet.numerics.signed/4.15.0",
+      "hashPath": "mathnet.numerics.signed.4.15.0.nupkg.sha512"
+    },
+    "Microsoft-WindowsAPICodePack-Core/1.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gsEStalyKPTR5/HKyAHYvIoDZTGUTUgIBS1eeGvkjWgDYB7f5aSBFAAJfxhhDsOGDjLs6O0uzw1H0EWYWZGDmg==",
+      "path": "microsoft-windowsapicodepack-core/1.1.4",
+      "hashPath": "microsoft-windowsapicodepack-core.1.1.4.nupkg.sha512"
+    },
+    "Microsoft-WindowsAPICodePack-Shell/1.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EtoEx9Fx3ZGW//sni9TB1vuBvzXIlyG8E2KNaX7bqV240aiU8RP+NmDHd1ox0YKbJDMxq7AWSI2jPhpLMYXKyw==",
+      "path": "microsoft-windowsapicodepack-shell/1.1.4",
+      "hashPath": "microsoft-windowsapicodepack-shell.1.1.4.nupkg.sha512"
+    },
+    "Microsoft.Xaml.Behaviors.Wpf/1.1.39": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8PZKqw9QOcu42xk8puY4P1+EXHL9YGOR9b7qhaYx5cILHul456H073tj99vyPcCt0W0781T9RwHqkx507ZyUpQ==",
+      "path": "microsoft.xaml.behaviors.wpf/1.1.39",
+      "hashPath": "microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512"
+    },
+    "NCDK/1.6.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TFfeeQ65FDKh2Bx6EseBuLLouJR4ILdrmHX5Lu/K1sPWzAkzsKk/3L11qJvl/TWggBy4X4KkaGUrBpq5cRcglA==",
+      "path": "ncdk/1.6.1",
+      "hashPath": "ncdk.1.6.1.nupkg.sha512"
+    }
+  }
+}

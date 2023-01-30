@@ -1,0 +1,64 @@
+﻿<Page x:Class="MonaJsonToMsp.Views.HelpPage2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MonaJsonToMsp"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      mc:Ignorable="d" 
+      d:DesignHeight="800" d:DesignWidth="600" FontSize="14" 
+      Title="helpOntology">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="120"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="600"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Button 
+                x:Name="back" 
+                Content="Back" 
+                HorizontalAlignment="Left" 
+                Margin="20,10,0,0" Height="30" Padding="0" Foreground="#DDFFFFFF" Click="helpOntology_Click" Width="50" VerticalAlignment="Top">
+        </Button>
+
+        <materialDesign:Card
+                Padding="20"
+                Background="{DynamicResource PrimaryHueDarkBrush}"
+                Foreground="{DynamicResource PrimaryHueDarkForegroundBrush}"
+                UniformCornerRadius="10" Margin="20,5,20,5" Grid.Row="1">
+            <TextBlock TextWrapping="Wrap" VerticalAlignment="Center">
+                    Ontology file (optional):<LineBreak />
+                    You can output the ontology in msp ontology field.
+            </TextBlock>
+        </materialDesign:Card>
+        <materialDesign:Card
+                Padding="20"
+                Background="{DynamicResource PrimaryHueDarkBrush}"
+                Foreground="{DynamicResource PrimaryHueDarkForegroundBrush}"
+                UniformCornerRadius="10" Margin="20,5,20,5" Grid.Row="2">
+            <TextBlock TextWrapping="Wrap" VerticalAlignment="Center">
+                Output ontology based on InChIKey.<LineBreak />
+                To output the ontology, prepare a tab-delimited text file containing "InChIKey" and "Ontology Class".<LineBreak />
+                (Header lines may or may not be included.)
+            </TextBlock>
+        </materialDesign:Card>
+        <materialDesign:Card
+                Padding="20"
+                Background="{DynamicResource PrimaryHueDarkBrush}"
+                Foreground="{DynamicResource PrimaryHueDarkForegroundBrush}"
+                UniformCornerRadius="10" Margin="20,5,20,5" Grid.Row="3">
+            <TextBlock TextWrapping="Wrap" VerticalAlignment="Center">
+If you have MS-FINDER, you can use a file with the extension ".icd" (e.g. InchikeyClassyfireDB-VS5.icd) in "Resources" folder of MS-FINDER.<LineBreak />
+(Note: this file does not cover all onlotogy)
+            </TextBlock>
+        </materialDesign:Card>
+    </Grid>
+
+</Page>

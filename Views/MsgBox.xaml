@@ -1,0 +1,37 @@
+﻿<UserControl x:Class="MonaJsonToMsp.MsgBox"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Height="150" Width="300">
+    <Grid Margin="16">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Orientation="Vertical" Margin="0,20,0,0" Grid.RowSpan="2">
+            <TextBlock
+                FontSize="16"
+                FontWeight="Medium"
+                Style="{StaticResource MaterialDesignBody1TextBlock}"
+                Text="{Binding DialogText}" HorizontalAlignment="Center" TextAlignment="Center" />
+        </StackPanel>
+        <StackPanel
+            Grid.Row="1"
+            Margin="0,0,0,0"
+            HorizontalAlignment="Center"
+            Orientation="Horizontal" Width="59">
+            <Button
+                Margin="0,0,0,0"
+                Command="{x:Static materialDesign:DialogHost.CloseDialogCommand}"
+                CommandParameter="OK"
+                Content="OK"
+                IsDefault="True"
+                Style="{StaticResource MaterialDesignRaisedLightButton}" />
+        </StackPanel>
+    </Grid>
+</UserControl>

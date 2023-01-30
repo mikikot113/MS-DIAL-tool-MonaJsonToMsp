@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "32vtjwZDSDBYakl23rk0Wg3ybHn1dVom8/1dPgiwEdlZiiEo2DsQoBR7bwhg1nkvQGr5umULwwpPhDgLt+nBXg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mikikot\\source\\repos\\MonaJsonToMsp\\MonaJsonToMsp\\MonaJsonToMsp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mikikot\\.nuget\\packages\\materialdesigncolors\\2.1.1\\materialdesigncolors.2.1.1.nupkg.sha512",
+    "C:\\Users\\mikikot\\.nuget\\packages\\materialdesignthemes\\4.7.1\\materialdesignthemes.4.7.1.nupkg.sha512",
+    "C:\\Users\\mikikot\\.nuget\\packages\\mathnet.numerics.signed\\4.15.0\\mathnet.numerics.signed.4.15.0.nupkg.sha512",
+    "C:\\Users\\mikikot\\.nuget\\packages\\microsoft-windowsapicodepack-core\\1.1.4\\microsoft-windowsapicodepack-core.1.1.4.nupkg.sha512",
+    "C:\\Users\\mikikot\\.nuget\\packages\\microsoft-windowsapicodepack-shell\\1.1.4\\microsoft-windowsapicodepack-shell.1.1.4.nupkg.sha512",
+    "C:\\Users\\mikikot\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
+    "C:\\Users\\mikikot\\.nuget\\packages\\ncdk\\1.6.1\\ncdk.1.6.1.nupkg.sha512"
+  ],
+  "logs": []
+}
